@@ -1,0 +1,82 @@
+.hero-text {
+    top: 50%;
+    right: clamp(4%, 8vw, 10%);
+    width: clamp(320px, 38vw, 520px);
+    color: white;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    translate: 0 -50%;
+    flex-direction: column;
+}
+
+.hero-kanji {
+    top: clamp(-160px, -14vw, -110px);
+    right: clamp(-30px, -2vw, 0px);
+    width: clamp(320px, 45vw, 600px);
+    pointer-events: none;
+    position: absolute;
+    user-select: none;
+    opacity: 0.88;
+    height: auto;
+    z-index: -1;
+}
+
+.hero-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: clamp(56px, 8vw, 106px);
+    letter-spacing: clamp(0.28em, 0.35em, 0.38em);
+    padding-left: clamp(0.28em, 0.35em, 0.38em);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.18);
+}
+
+.hero-subtitle {
+    opacity: 0.75;
+    text-transform: uppercase;
+    font-size: clamp(11px, 1.2vw, 13px);
+    margin-top: clamp(10px, 1.5vw, 14px);
+    letter-spacing: clamp(0.28em, 0.35em, 0.4em);
+}
+
+.hero-btn {
+    border: none;
+    cursor: pointer;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    border-radius: 6px;
+    color: #5a1a6b;
+    font-size: clamp(11px, 1.1vw, 12px);
+    margin-top: clamp(20px, 3vw, 28px);
+    letter-spacing: 0.15em;
+    padding: clamp(14px, 1.8vw, 16px) clamp(26px, 3vw, 32px);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.hero-btn:hover {
+    transform: translateY(-2px);
+}
+
+.hero-btn::before {
+    inset: 0;
+    top: 0;
+    left: -120%;
+    content: "";
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    transition: left 0.5s ease;
+    background: linear-gradient(120deg, transparent, rgba(255, 174, 244, 0.6), transparent);
+}
+
+.hero-btn:hover::before {
+    left: 120%;
+}
+
+.hero-btn:active {
+    transform: translateY(-1px) scale(0.98);
+    box-shadow: 0 6px 18px rgba(90, 26, 107, 0.25);
+}

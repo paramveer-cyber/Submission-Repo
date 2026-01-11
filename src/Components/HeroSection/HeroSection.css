@@ -1,0 +1,58 @@
+.bg-layer {
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: -5;
+  will-change: transform;
+}
+
+.hut-layer {
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/hut.png");
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: -4;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.rocks-layer {
+  position: absolute;
+  inset: 0;
+  background-image: url("../../assets/rocks.png");
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: -3;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.hero-transition {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -260px;
+  height: 260px;
+
+  background-image: url("../../assets/transition.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  opacity: 1;
+  pointer-events: none;
+  z-index: -2;
+  will-change: transform;
+}
+
+.hero-content {
+  position: absolute;
+  top: 45%;
+  left: 90%;
+}
