@@ -36,7 +36,7 @@ export default function HeroSection() {
     }, []);
 
     return (
-        <section className="hero" ref={heroRef}>
+        <section className="hero" fetchPriority={"high"} ref={heroRef}>
             <div className="bg-layer" ref={bgRef} />
             <div className="hut-layer" ref={hutRef} />
             <div className="rocks-layer" ref={rocksRef} />

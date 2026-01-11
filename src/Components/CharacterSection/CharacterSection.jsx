@@ -1,5 +1,5 @@
 import "./CharacterSection.css";
-import character from "../../assets/character.jpg";
+import character from "../../assets/character.webp";
 
 export default function CharacterSection() {
   return (

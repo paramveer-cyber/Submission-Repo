@@ -1,5 +1,5 @@
-import twitchW from "../../assets/twitchw.png";
-import twitchB from "../../assets/twitchb.png";
+import twitchW from "../../assets/twitchw.webp";
+import twitchB from "../../assets/twitchb.webp";
 import { useState } from "react";
 import "./Navbar.css";
 

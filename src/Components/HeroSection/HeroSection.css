@@ -1,7 +1,7 @@
 .bg-layer {
   position: absolute;
   inset: 0;
-  background-image: url("../../assets/background.png");
+  background-image: url("../../assets/background.webp");
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 .hut-layer {
   position: absolute;
   inset: 0;
-  background-image: url("../../assets/hut.png");
+  background-image: url("../../assets/hut.webp");
   background-size: contain;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .rocks-layer {
   position: absolute;
   inset: 0;
-  background-image: url("../../assets/rocks.png");
+  background-image: url("../../assets/rocks.webp");
   background-size: contain;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@
   bottom: -260px;
   height: 260px;
 
-  background-image: url("../../assets/transition.jpg");
+  background-image: url("../../assets/transition.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;

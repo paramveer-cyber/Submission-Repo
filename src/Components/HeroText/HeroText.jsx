@@ -1,4 +1,4 @@
-import kanji from "../../assets/kanji.png";
+import kanji from "../../assets/kanji.webp";
 import "./HeroText.css";
 
 export default function HeroText() {
