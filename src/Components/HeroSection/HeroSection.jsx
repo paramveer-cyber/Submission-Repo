@@ -26,10 +26,10 @@ export default function HeroSection() {
                 },
             })
             .to(bgRef.current, { y: -100, ease: "none" }, 0)
-            .to(hutRef.current, { y: -180, ease: "power2.out" }, 0)
-            .to(rocksRef.current, { y: -260, ease: "power4.out" }, 0)
+            .to(hutRef.current, { y: -180, ease: "power1.out" }, 0)
+            .to(rocksRef.current, { y: -260, ease: "power4.out"}, 0)
             .to(transitionRef.current, { y: -260, ease: "power4.out" }, 0)
-            .to(contentRef.current, { opacity: 0, duration: 0.25, ease: "power1.out", }, 0);
+            .to(contentRef.current, { opacity: 0, duration: 0.2, ease: "power3.out", }, 0);
         }, heroRef);
 
         return () => ctx.revert();
